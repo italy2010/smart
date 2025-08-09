@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable[]",
+						"name": "_recipients",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "recipients",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"quality-unique-contracts/SplitPayment.sol": "SplitPayment"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"quality-unique-contracts/SplitPayment.sol": {
+			"keccak256": "0x1ce361725bca21ffe76a76b38c3b314c95fdb2c94c34f67c2e73f549236d6f07",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bff62c20741ce7fcb5a702272c00f141e4d358dd7a246c093dad2b619b1826bd",
+				"dweb:/ipfs/QmbJCtkzLFCQ24XDrmGjvJ4JWGiHGYHoSyFpzmxp1K42Cb"
+			]
+		}
+	},
+	"version": 1
+}
