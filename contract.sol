@@ -70,7 +70,7 @@ contract BatchDeployCrowdfund {
 
     function deployAll() public {
         require(campaigns.length == 0, "Already deployed");
-        for (uint i = 1; i <= 30; i++) {
+        for (uint i = 1; i <= 35; i++) {
             string memory name = string(abi.encodePacked("Campaign", uint2str(i)));
             uint goal = i * 1 ether;
             Crowdfund c = new Crowdfund(name, goal, 10); // 10 days deadline
